@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>login</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Gabriela" rel="stylesheet">
+  <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'> 
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+  <div class="wrapper">
+  <div class="main-card">
+    <h1>Login</h1>
+	<hr>
+	  <div class="container">
+  <form id="rform">
+    <div class="row">
+      <div class="input-group input-group-icon">
+        <input type="email" id="email" title="Email" required='required' placeholder="Email Address"/>
+        <div class="input-icon"><i class="fa fa-envelope"></i></div>
+      </div>
+      <div class="input-group input-group-icon">
+        <input type="password" id="pwd" required='required' title="Password" minlength="8" placeholder="Password"/>
+        <div class="input-icon"><i class="fa fa-key"></i></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="bts">
+        <div style="color:tomato" id='formerr'></div>
+        <button class="pulse">Submit</button>
+        <button class="pulse">Reset</button><br>
+        Register <a href="signup.html">Here</a>
+      </div>
+    </div>
+  </form>
+</div>
+  </div>
+</div>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='js/login.js'></script>
+</body>
+</html>
